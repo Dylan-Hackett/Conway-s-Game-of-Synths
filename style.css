@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+#conway{
+transition: 4000ms;
+}
+
+#synth {
+margin: 400px;
+position: absolute;
+color: antiquewhite;
+
+}
+
+label {
+display: inline-block;
+margin-right: 10px;
+width: 150px;
+text-align: right;
+}
+
+input[type="range"] {
+vertical-align: middle;
+margin-right: 10px;
+}

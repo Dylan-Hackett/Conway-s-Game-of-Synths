@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conways game of Synth</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+    <body>
+        <div id="synth">
+            <label for="modFreq">Modulation Frequency:</label>
+            <input type="range" min="000" max="10000" value="0" step=".01" id="modFreq">            
+            <label for="modDepth">Modulation Depth:</label>
+            <input type="range" min="000" max="5000" value="0" step=".01" id="modDepth">
+        </div>
+    <canvas id="conway" width="1280" height="720"></canvas>
+</body>
+</html>
+
