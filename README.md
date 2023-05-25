@@ -3,7 +3,7 @@
 
 ### The game can be triggered here: [https://dylan-hackett.github.io/conways-game-of-synths/](https://dylan-hackett.github.io/Conways-Game-Of-Synths/)
 
-This Is an implementation of a game popular with programmers called conways game of life. I changed it up a bit here by utilizing some audio elements with the javascript web audio api to make a musical audio synthesizer play a repeating melody line utilizing one of my favorite musical scales, the Javanese pelogg. 
+This Is an implementation of a game popular with programmers called Conway's Game of life. I changed it up a bit here by utilizing some audio elements with the javascript web audio api to make a musical audio synthesizer play a repeating melody line utilizing one of my favorite musical scales, the Javanese pelogg. 
 
 Event listeners are added to control the modulation frequency and depth:
 
