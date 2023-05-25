@@ -1,4 +1,4 @@
-# conways-game-Of-synths
+# Conways-Game-Of-Synths
 
 
 ## The game can be triggered here: https://dylan-hackett.github.io/conways-game-of-synths/
