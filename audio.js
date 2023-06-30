@@ -16,10 +16,10 @@ var envelope = audioCtx.createGain();
 oscillator.type = 'triangle';
 
 modulator.type = 'triangle';
-modGainNode.gain.value = 20;
+modGainNode.gain.value = 10;
 
 
-envelope.gain.value = 0.5;
+envelope.gain.value = 0.2;
 
 modulator.connect(modGainNode);
 modGainNode.connect(oscillator.frequency);
