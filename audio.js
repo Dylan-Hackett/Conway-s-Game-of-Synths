@@ -10,7 +10,7 @@ var oscillator = audioCtx.createOscillator();
 var modulator = audioCtx.createOscillator();
 var gainNode = audioCtx.createGain();
 var modGainNode = audioCtx.createGain();
-var envelope = audioCtx.createGain(); // Create an envelope gain node
+var envelope = audioCtx.createGain();
 
 
 oscillator.type = 'triangle';
@@ -19,9 +19,8 @@ modulator.type = 'triangle';
 modGainNode.gain.value = 20;
 
 
- // Set initial gain to zero
-envelope.gain.value = 0.5; // Set envelope gain to zero initially
-// create audio context and connect nodes here
+envelope.gain.value = 0.5;
+
 modulator.connect(modGainNode);
 modGainNode.connect(oscillator.frequency);
 oscillator.connect(envelope); // Connect the oscillator to the envelope
