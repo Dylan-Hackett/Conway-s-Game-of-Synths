@@ -69,7 +69,6 @@ setInterval(() => {
     gainNode.gain.value = envelope.gain.getValueAtTime(audioCtx.currentTime)/2;
     envelope.gain.cancelScheduledValues(audioCtx.currentTime);
 }, 500);
-// put your audio code here
 
 
 });
